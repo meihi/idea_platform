@@ -1,0 +1,138 @@
+h2{
+    margin: 45px 0;
+    color: #555;
+    font-weight: 400;
+}
+
+.container{
+    
+}
+
+.detail_wrap{
+    background-color: #f0e6e6;
+    width: 100%;
+    height: auto;
+    margin: 60px 0;
+    padding: 50px 5px 60px 7px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.d_author{
+    display: flex;
+    margin: 0 0 5px 10px;
+}
+
+.author_icon img{
+    width: 63px;
+    height: 63px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.author_name a{
+    display: block;
+    margin: 15px 0 0 10px;
+    border-bottom: 1px solid #555;
+    font-size: 18px;
+    height: 23px;
+}
+
+.d_img img{
+    display: block;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.d_title h2{
+    margin: 5px 0 25px -15px;
+}
+
+.detail_right{
+    width: 50%;
+}
+
+.select_wrap{
+    display: flex;
+}
+
+.d_category, .d_target{
+    margin: 10px 0;
+    display: flex;
+}
+
+.s1{
+    margin: 0 5px 0 0;
+    padding: 2.5px 4.5px;
+    background: #c89393;
+    border: 1px solid #c89393;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    height: 25px;
+    font-size: 15px;
+}
+
+.category{
+    width: 88px;
+}
+.target{
+    width: 80px;
+}
+
+.s2{
+    margin: 3px 25px 0 3px;
+}
+
+.d_text{
+    margin-top: 25px;
+}
+
+.btn_wrap{
+    display: flex;
+    padding: 0 100px;
+    float: right;
+}
+
+.btn{
+    margin: 30px 20px 0 20px;
+    color: #4d1a1a;
+    padding: 0;
+    height: 30px;
+    border-bottom: 1px solid #4d1a1a;
+    font-size: 21px;
+}
+
+.btn:hover{
+    margin: 30px 20px 0 20px;
+    color: #a76c6c;
+    padding: 0;
+    height: 30px;
+    border-bottom: 1px solid #a76c6c;
+    font-size: 21px;
+}
+
+/* いいね */
+.btn-good{
+    display: inline-block;
+    padding: 0 8px;
+    cursor: pointer;
+    font-size: 21px;
+    margin: 10px 0 0 10px;
+}
+.btn-good:hover{
+    color: #f44336;
+}
+.active{
+    color: #f44336;
+}
+.btn-good .active{
+    color: #f44336;
+}
+
+.btn-good span{
+    margin-left: 5px;
+}

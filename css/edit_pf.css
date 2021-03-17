@@ -1,0 +1,123 @@
+body{
+    /*background-image: url("../images/signup_bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;*/
+}
+
+h2{
+    margin: 45px 0;
+    color: #eee;
+    font-weight: 400;
+}
+
+.user_form{
+    background-color: rgb(131,124,124,0.7);
+    width: 600px;
+    height: auto;
+    margin: 58px auto;
+    padding: 20px 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.user_form img{
+    display: block;
+    height: auto;
+    float: left;
+    width: 285px;
+    margin: 0 30px;
+}
+
+.label_border{
+    border-radius:5px;
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#file{
+    display: none;
+}
+
+#file_result img{
+    display: block;
+    width: 303px;
+    height: 303px;
+    object-fit: cover;
+    margin: 50px 150px 30px -35px;
+}
+
+label{
+    color: #555;  
+    background-color: #eee;
+    width: 230px;
+    text-align: center;
+    padding: 10px 15px;
+    border:solid 0.5px #A9A9A9;
+    border-radius: 23px;
+    margin: 50px auto;
+    display: block;
+}
+
+label:hover {
+    color: #fff;  
+    background-color: #A9A9A9;
+    width: 230px;
+    text-align: center;
+    padding: 10px 15px;
+    border:solid 1px #A0A0A0;
+    border-radius: 23px;
+    margin: 50px auto;
+    display: block;
+}
+
+.name,.mail{
+    margin: 30px auto;
+    display: block;
+    width: 360px;
+    height:45px;
+    padding:0 15px; 
+    outline:0;
+    background:#eee;
+    border:solid 0.5px #A9A9A9;
+    border-radius:5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.submit{
+    color: #fff;  
+    background-color: #828282;
+    width: 190px;
+    padding: 10px 15px;
+    border:solid 2px #eee;
+    border-radius: 23px;
+    margin: 70px auto 55px auto;
+    display: block;
+    font-size: 17px;
+    outline: none;
+}
+
+.submit:hover {
+    color: #828282;  
+    background-color: #eee;
+    width: 190px;
+    padding: 10px 15px;
+    border:solid 2px #828282;
+    border-radius: 23px;
+    margin: 70px auto 55px auto;
+    display: block;
+    font-size: 17px;
+}
+
+.delete_pf{
+    color: #eee;
+    display: block;
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+.delete_pf:hover{
+    opacity: 0.7;
+}
+

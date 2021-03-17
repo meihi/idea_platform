@@ -1,0 +1,84 @@
+h2{
+    color: #555;
+    font-weight: 400;
+}
+
+.container{
+    
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.form_wrap{
+    background-color: #ecdfdf;
+    width: 80%;
+    height: auto;
+    margin: 70px auto 100px auto;
+    padding: 60px 0 60px 0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.prof_icon img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.follow_wrap{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin: 30px 250px 0 270px;
+}
+
+.follow_wrap a {
+    display: block;
+}
+
+
+.mypage_btn_wrap{
+    margin-top: 60px;
+}
+
+.mypage_btn button:hover{
+    color: #fff;  
+    background-color: #c89393;
+    width: 190px;
+    height: 60px;
+    padding: 10px 13px;
+    border:solid 2px #c89393;
+    border-radius: 40px;
+    margin: 25px auto;
+    display: block;
+    font-size: 18px;
+    outline: none;
+}
+
+.mypage_btn button{
+    color: #555;  
+    background-color: #eee;
+    width: 190px;
+    height: 60px;
+    padding: 10px 13px;
+    border:solid 2px #828282;
+    border-radius: 40px;
+    margin: 30px auto;
+    display: block;
+    font-size: 18px;
+    outline: none;
+}
+
+.logoff {
+    border-bottom: 1px solid #555;
+    font-size: 17px;
+    margin: 50px auto;
+    display: block;
+    width: 88px;
+    height: 24px;
+    
+}

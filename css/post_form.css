@@ -1,0 +1,156 @@
+h2{
+    margin: 45px 0;
+    color: #555;
+    font-weight: 400;
+}
+
+.container{
+    
+}
+
+form{
+    background-color: #ecdfdf;
+    width: 100%;
+    height: auto;
+    margin: 60px auto;
+    padding: 80px 0 60px 0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.post_wrap{
+    display: flex;
+    justify-content: space-around;
+}
+
+input,.label_border,textarea,select{
+    background-color: #f9f6f6;
+    border:solid 0.5px #A9A9A9;
+}
+
+.label_border{
+    border-radius:5px;
+    width: 415px;
+    height: 415px;
+    position: relative;
+    margin-top: 10px;
+}
+
+#file{
+    display: none;
+}
+
+#file_result img{
+    display: block;
+    width: 417px;
+    height: 417px;
+    object-fit: cover;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
+
+label{
+    color: #555;  
+    background-color: #eee;
+    width: 230px;
+    text-align: center;
+    padding: 10px 15px;
+    border:solid 0.5px #A9A9A9;
+    border-radius: 23px;
+    margin: 165px auto;
+    display: block;
+    z-index: 5;
+}
+
+label:hover {
+    color: #fff;  
+    background-color: #A9A9A9;
+    width: 230px;
+    text-align: center;
+    padding: 10px 15px;
+    border:solid 1px #A0A0A0;
+    border-radius: 23px;
+    margin: 165px auto;
+    display: block;
+}
+
+input{
+    margin-bottom: 20px;
+    display: block;
+    width: 360px;
+    height:43px;
+    padding:0 15px; 
+    outline:0;
+    border-radius:4px;
+    font-size: 15px;
+}
+
+select{
+    display: flex;
+    width: 300px;
+    height:35px;
+    padding:0 15px; 
+    margin: 10px 0;
+    outline:0;
+    border-radius:4px;
+    font-size: 14px;
+    text-align: center;
+    color: #555;
+}
+
+.option_li{
+     color: #555;
+}
+
+textarea{
+    margin: 20px auto 0 auto;
+    display: block;
+    width: 430px;
+    height:250px;
+    padding: 15px 10px; 
+    outline:0;
+    border-radius:5px;
+    font-size: 15px;
+    resize: none;
+    color: #555;
+}
+
+.btn_wrap{
+    display: flex;
+}
+
+.submit:hover{
+    color: #fff;  
+    background-color: #c89393;
+    width: 190px;
+    height: 60px;
+    padding: 13px 15px;
+    border:solid 2px #c89393;
+    border-radius: 40px;
+    margin: 70px auto 0 auto;
+    display: block;
+    font-size: 18px;
+}
+
+.submit{
+    color: #555;  
+    background-color: #eee;
+    width: 190px;
+    height: 60px;
+    padding: 13px 15px;
+    border:solid 2px #828282;
+    border-radius: 40px;
+    margin: 70px auto 0 auto;
+    display: block;
+    font-size: 18px;
+}
+
+/* 編集フォーム　*/
+.edit_file img{
+    display: block;
+    width: 417px;
+    height: 417px;
+    object-fit: cover;
+    margin-top: 10px;
+}

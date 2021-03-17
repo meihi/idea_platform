@@ -1,0 +1,154 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-top: 120px;
+    background-color: #fcfcfc;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+    outline: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    border-style: none;
+} 
+
+p{
+    color: #555;
+    margin: 0;
+}
+
+::-webkit-input-placeholder{
+    font-family: "Verdana",  sans-serif;
+}
+:-moz-placeholder {
+    font-family: "Verdana",  sans-serif;
+}
+
+/* ヘッダー */
+
+.header_wrapper{
+    width: 100%;
+    height: 120px; 
+    border-bottom: 3px solid #ef7e6c;
+    padding: 15px 0 4px 0;
+    background: rgba(255, 255, 255,0.8);
+    z-index: 10;
+    position: fixed;
+    top: 0;
+}
+
+.header_logo img{
+    display: block;
+    height: auto;
+    float: left;
+    width: 280px;
+    margin: 0 30px;
+    opacity: 0.75;
+    position: relative;
+}
+
+.header_logo p{
+    position: absolute;
+    left: 70px;
+    top: 12px;
+    font-size: 13px;
+}
+
+
+
+.header_nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.header_nav_top{
+    float: right;
+}
+
+.header_nav_top li a {
+    margin: 0 40px 0 -13px;
+    float: right;
+    position: relative;
+    display: inline-block;
+    padding: .6em 2em;
+    background: #ef7e6c;
+    border: 1px solid #f38f81;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.header_nav_top li a::after {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    left: 3px;
+    content: '';
+    border: 2px dashed #fbf4f4;
+    border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+}
+
+.header_nav_bottom li ul{
+    display: none;
+}
+/*.header_nav_bottom li:hover ul{
+    display: block;
+}*/
+
+.nav_bottom_menu{
+    float: right;
+    display: flex;
+    margin: 23px 45px 0 10px;
+    font-size: 17px;
+}
+
+.nav_bottom_menu span{
+    color: #f38f81;
+}
+
+/* フッター */
+.all_wrapper{
+    min-height: 100vh; /* ←コンテンツの高さの最小値＝ブラウザの高さに指定 */
+    position: relative;/* ←相対位置 */
+    padding-bottom: 60px; /* ←フッターの高さを指定 */
+    box-sizing: border-box;
+    /* ↑ヘッダーやフッターを含むすべての要素の高さ＝min-height:100vhになるように指定 */
+}
+
+footer{
+    position: absolute;/* ←絶対位置 */
+    bottom: 0;
+
+    width: 100%;
+    margin-top: 50px;
+    /*border-top: 2px solid #ef7e6c;*/
+    background-color: #ef7e6c;
+    opacity: 0.8;
+}
+
+footer p{
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    padding: 13px;
+}
+
+/* 入力チェック　*/
+.red{
+    color: #b22222;
+}
+
